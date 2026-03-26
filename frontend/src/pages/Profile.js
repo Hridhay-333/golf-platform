@@ -9,7 +9,7 @@ function Profile() {
       try {
         const token = localStorage.getItem("token");
 
-        const res = await axios.get("http://localhost:5000/api/users/profile", {
+        const res = await axios.get("https://golf-platform-hofp.onrender.com/api/users/profile", {
           headers: {
             Authorization: token,
           },

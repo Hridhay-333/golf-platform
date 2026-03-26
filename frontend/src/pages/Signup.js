@@ -8,7 +8,7 @@ function Signup() {
 
   const handleSignup = async () => {
     try {
-      await axios.post("http://localhost:5000/api/users/signup", {
+      await axios.post("https://golf-platform-hofp.onrender.com/api/users/signup", {
         name,
         email,
         password,
